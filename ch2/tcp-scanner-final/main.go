@@ -1,11 +1,10 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"net"
-	"os"
 	"sort"
-	"strconv"
 	"time"
 )
 
@@ -20,9 +19,11 @@ const (
 	ColorWhite  = "\033[37m"
 )
 
-func worker(timeout time.Duration, ports, results chan int) {
+func worker(timeout time.Duration, verbose bool, ports, results chan int) {
 	for p := range ports {
-		fmt.Printf("%sscanme.nmap.org%s:%s%d%s\n", ColorCyan, ColorReset, ColorYellow, p, ColorReset)
+		if verbose {
+			fmt.Printf("%sscanme.nmap.org%s:%s%d%s\n", ColorCyan, ColorReset, ColorYellow, p, ColorReset)
+		}
 		address := fmt.Sprintf("scanme.nmap.org:%d", p)
 		conn, err := net.DialTimeout("tcp", address, timeout)
 		if err != nil {
@@ -36,20 +37,19 @@ func worker(timeout time.Duration, ports, results chan int) {
 
 func main() {
 
-	args := os.Args
-	timeOutValue := 5000
+	var timeoutFlag = flag.Int("t", 5000, "timeout value ms")
+	var verboseFlag = flag.Bool("v", false, "verbose output boolean")
 
-	if len(args) > 1 {
-		timeOutValue, _ = strconv.Atoi(args[1])
-	}
+	flag.Parse()
 
-	timeout := time.Duration(timeOutValue) * time.Millisecond
+	timeout := time.Duration(*timeoutFlag) * time.Millisecond
 	ports := make(chan int, 100)
 	results := make(chan int)
 	var openports []int
 
+	fmt.Println("# Starting scan...")
 	for i := 0; i < cap(ports); i++ {
-		go worker(timeout, ports, results)
+		go worker(timeout, *verboseFlag, ports, results)
 	}
 
 	go func() {
