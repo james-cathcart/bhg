@@ -29,5 +29,6 @@ go get gopkg.in/vmihailenco/msgpack.v2​​
 
 Handlers include ‘core’, ‘auth’, ‘console’, ‘module’, ‘session’, ‘plugin’, ‘job’, and ‘db’.
 
-Metasploit Framwork RPC Server
+## Metasploit Framwork RPC Server
+
 The Metasploit Framework RPC server requires a username and password to be specified. This username and password combination can be used with the auth.login API to obtain a temporary token that will grant access to the rest of the API.
