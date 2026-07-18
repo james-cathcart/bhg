@@ -4,20 +4,25 @@
 
 https://docs.rapid7.com/metasploit/rpc-api/
 
-**Start Server**
+**Start Metasploit***
+```
+msfconsole
+```
+
+**Start Local RPC Server**
 
 ```
-msf > load msgrpc Pass=s3cr3t ServerHost=10.0.1.6
+msf > load msgrpc Pass=s3cr3t ServerHost=127.0.0.1
 ```
 
 **Output**
 
 ```
-Server Started
 [*] MSGRPC Service:  127.0.0.1:55552
 [*] MSGRPC Username: msf
-[*] MSGRPC Password: Ke5Zz0UN
+[*] MSGRPC Password: s3cr3t
 [*] Successfully loaded plugin: msgrpc
+msf >
 ```
 
 ## Go Lib
@@ -27,7 +32,15 @@ go get gopkg.in/vmihailenco/msgpack.v2​​
 
 ## Framework Handlers
 
-Handlers include ‘core’, ‘auth’, ‘console’, ‘module’, ‘session’, ‘plugin’, ‘job’, and ‘db’.
+Handlers include 
+- core
+- auth
+- console
+- module
+- session
+- plugin
+- job
+- db
 
 ## Metasploit Framwork RPC Server
 
