@@ -1,0 +1,70 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="GGFEWYaP8w5_yUZFEZq3">
+    <mxGraphModel dx="2411" dy="2423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-23" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ZCxJBvtx6G3Jy5OftoSJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-24" connectable="0" parent="ZCxJBvtx6G3Jy5OftoSJ-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Connect to Go NetCat&amp;nbsp;&lt;div&gt;on victim&#39;s machine&lt;div&gt;for shell access&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6828" y="-2" as="geometry">
+            <mxPoint y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-27" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ZCxJBvtx6G3Jy5OftoSJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Go NetCat server" vertex="1">
+          <mxGeometry height="46.2" width="73.8" x="395" y="-590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-14" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ZCxJBvtx6G3Jy5OftoSJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-15" connectable="0" parent="ZCxJBvtx6G3Jy5OftoSJ-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Get host details&lt;div&gt;for online botnet&lt;/div&gt;&lt;div&gt;clients&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0432" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-10" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZCxJBvtx6G3Jy5OftoSJ-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="195" y="-590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-12" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZCxJBvtx6G3Jy5OftoSJ-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-9" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Joe&#39;s&lt;div&gt;Lab&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="180" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-11" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="Joe&#39;s&lt;div&gt;Botnet&lt;/div&gt;&lt;div&gt;Server&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="180" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-21" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ZCxJBvtx6G3Jy5OftoSJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-22" connectable="0" parent="ZCxJBvtx6G3Jy5OftoSJ-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Register with&lt;div&gt;Joe&#39;s Botnet&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0556" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-25" edge="1" parent="1" source="ZCxJBvtx6G3Jy5OftoSJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ZCxJBvtx6G3Jy5OftoSJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-18" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;spacingTop=-110;spacingBottom=0;spacingLeft=-30;" value="Victims&lt;div&gt;machine&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="535" y="-606.9" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-19" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" value="Hacker Joe&#39;s&lt;div&gt;machine&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="535" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-26" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" value="Run Joe&#39;s command" vertex="1">
+          <mxGeometry height="40" width="100" x="381.9" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCxJBvtx6G3Jy5OftoSJ-28" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Next Steps&lt;/h1&gt;&lt;p&gt;With that, you’ve successfully implemented Netcat’s gaping security&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hole from the perspective of a TCP listener awaiting a connection. You can&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;use similar logic to implement the feature from the perspective of a con&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;necting client redirecting stdout and stdin of a local binary to a remote&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;listener. The precise details are left to you to determine, but would likely&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;include the following:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Establish a connection to a remote listener via net.Dial(network,&lt;/li&gt;&lt;li&gt;address string).&lt;/li&gt;&lt;li&gt;Initialize a Cmd via exec.Command(name string, arg ...string).&lt;/li&gt;&lt;li&gt;Redirect Stdin and Stdout properties to utilize the net.Conn object.&lt;/li&gt;&lt;li&gt;Run the command.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;At this point, the listener should receive a connection. Any data sent&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to the client should be interpreted as stdin on the client, and any data&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;received on the listener should be interpreted as stdout.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="280" width="490" x="180" y="-1020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
